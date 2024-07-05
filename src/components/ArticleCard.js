@@ -16,8 +16,6 @@ function ArticleCard({ article }) {
     setExpanded(!expanded);
   };
 
-  console.log("article=====", article);
-
   return (
     <Card sx={{ maxWidth: 345 }}>
       <CardHeader
